@@ -14,6 +14,8 @@
 		F7E7957A248824C900D3FA58 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E79579248824C900D3FA58 /* Tag.swift */; };
 		F7E7957C248826A800D3FA58 /* EventTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E7957B248826A800D3FA58 /* EventTag.swift */; };
 		F7E7958024882AA800D3FA58 /* EventTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E7957F24882AA800D3FA58 /* EventTag.swift */; };
+		F7E79582248833E100D3FA58 /* SiteTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E79581248833E100D3FA58 /* SiteTag.swift */; };
+		F7E795892488514700D3FA58 /* SiteTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E795882488514700D3FA58 /* SiteTag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		F7E79579248824C900D3FA58 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
 		F7E7957B248826A800D3FA58 /* EventTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTag.swift; sourceTree = "<group>"; };
 		F7E7957F24882AA800D3FA58 /* EventTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTag.swift; sourceTree = "<group>"; };
+		F7E79581248833E100D3FA58 /* SiteTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteTag.swift; sourceTree = "<group>"; };
+		F7E795882488514700D3FA58 /* SiteTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteTag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				F7E7957F24882AA800D3FA58 /* EventTag.swift */,
+				F7E795882488514700D3FA58 /* SiteTag.swift */,
 			);
 			path = Tag;
 			sourceTree = "<group>";
@@ -110,6 +115,7 @@
 			children = (
 				F7E79579248824C900D3FA58 /* Tag.swift */,
 				F7E7957B248826A800D3FA58 /* EventTag.swift */,
+				F7E79581248833E100D3FA58 /* SiteTag.swift */,
 			);
 			path = Tag;
 			sourceTree = "<group>";
@@ -225,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7E7957A248824C900D3FA58 /* Tag.swift in Sources */,
+				F7E79582248833E100D3FA58 /* SiteTag.swift in Sources */,
 				F7E795782488207500D3FA58 /* Square.swift in Sources */,
 				F7E7957C248826A800D3FA58 /* EventTag.swift in Sources */,
 			);
@@ -234,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E795892488514700D3FA58 /* SiteTag.swift in Sources */,
 				F7E7956C2488204900D3FA58 /* PGN_WriterTests.swift in Sources */,
 				F7E7958024882AA800D3FA58 /* EventTag.swift in Sources */,
 			);
