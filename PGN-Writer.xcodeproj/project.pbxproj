@@ -10,6 +10,10 @@
 		F7E795672488204900D3FA58 /* PGN_Writer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E7955D2488204900D3FA58 /* PGN_Writer.framework */; };
 		F7E7956C2488204900D3FA58 /* PGN_WriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E7956B2488204900D3FA58 /* PGN_WriterTests.swift */; };
 		F7E7956E2488204900D3FA58 /* PGN_Writer.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E795602488204900D3FA58 /* PGN_Writer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7E795782488207500D3FA58 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E795772488207500D3FA58 /* Square.swift */; };
+		F7E7957A248824C900D3FA58 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E79579248824C900D3FA58 /* Tag.swift */; };
+		F7E7957C248826A800D3FA58 /* EventTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E7957B248826A800D3FA58 /* EventTag.swift */; };
+		F7E7958024882AA800D3FA58 /* EventTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E7957F24882AA800D3FA58 /* EventTag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 		F7E795662488204900D3FA58 /* PGN-WriterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PGN-WriterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E7956B2488204900D3FA58 /* PGN_WriterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGN_WriterTests.swift; sourceTree = "<group>"; };
 		F7E7956D2488204900D3FA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7E795772488207500D3FA58 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		F7E79579248824C900D3FA58 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		F7E7957B248826A800D3FA58 /* EventTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTag.swift; sourceTree = "<group>"; };
+		F7E7957F24882AA800D3FA58 /* EventTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +79,10 @@
 		F7E7955F2488204900D3FA58 /* PGN-Writer */ = {
 			isa = PBXGroup;
 			children = (
+				F7E7957E24882A7A00D3FA58 /* Tag */,
 				F7E795602488204900D3FA58 /* PGN_Writer.h */,
 				F7E795612488204900D3FA58 /* Info.plist */,
+				F7E795772488207500D3FA58 /* Square.swift */,
 			);
 			path = "PGN-Writer";
 			sourceTree = "<group>";
@@ -80,10 +90,28 @@
 		F7E7956A2488204900D3FA58 /* PGN-WriterTests */ = {
 			isa = PBXGroup;
 			children = (
+				F7E7957D24882A7400D3FA58 /* Tag */,
 				F7E7956B2488204900D3FA58 /* PGN_WriterTests.swift */,
 				F7E7956D2488204900D3FA58 /* Info.plist */,
 			);
 			path = "PGN-WriterTests";
+			sourceTree = "<group>";
+		};
+		F7E7957D24882A7400D3FA58 /* Tag */ = {
+			isa = PBXGroup;
+			children = (
+				F7E7957F24882AA800D3FA58 /* EventTag.swift */,
+			);
+			path = Tag;
+			sourceTree = "<group>";
+		};
+		F7E7957E24882A7A00D3FA58 /* Tag */ = {
+			isa = PBXGroup;
+			children = (
+				F7E79579248824C900D3FA58 /* Tag.swift */,
+				F7E7957B248826A800D3FA58 /* EventTag.swift */,
+			);
+			path = Tag;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +176,7 @@
 				TargetAttributes = {
 					F7E7955C2488204900D3FA58 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 					F7E795652488204900D3FA58 = {
 						CreatedOnToolsVersion = 11.5;
@@ -195,6 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E7957A248824C900D3FA58 /* Tag.swift in Sources */,
+				F7E795782488207500D3FA58 /* Square.swift in Sources */,
+				F7E7957C248826A800D3FA58 /* EventTag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7E7956C2488204900D3FA58 /* PGN_WriterTests.swift in Sources */,
+				F7E7958024882AA800D3FA58 /* EventTag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +373,7 @@
 		F7E795722488204900D3FA58 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -355,6 +389,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.A.F.PGN-Writer";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +398,7 @@
 		F7E795732488204900D3FA58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -386,6 +422,7 @@
 		F7E795752488204900D3FA58 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "PGN-WriterTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,6 +440,7 @@
 		F7E795762488204900D3FA58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "PGN-WriterTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
