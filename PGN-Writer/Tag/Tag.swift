@@ -24,6 +24,11 @@ protocol Taggable {
 }
 
 extension Taggable {
+    
+    func getTag(tagKey: String, tagValue: String) -> String {
+         startTag + tagKey + space + doubleQuotation + tagValue + doubleQuotation + endTag
+    }
+    
     var startTag: String {
         return "["
     }
