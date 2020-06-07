@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F70AEDD4248D54A2007F67EB /* DateTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70AEDD3248D54A2007F67EB /* DateTag.swift */; };
+		F70AEDD8248D5940007F67EB /* DateTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70AEDD7248D5940007F67EB /* DateTag.swift */; };
 		F7E795672488204900D3FA58 /* PGN_Writer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E7955D2488204900D3FA58 /* PGN_Writer.framework */; };
 		F7E7956C2488204900D3FA58 /* PGN_WriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E7956B2488204900D3FA58 /* PGN_WriterTests.swift */; };
 		F7E7956E2488204900D3FA58 /* PGN_Writer.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E795602488204900D3FA58 /* PGN_Writer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F70AEDD3248D54A2007F67EB /* DateTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTag.swift; sourceTree = "<group>"; };
+		F70AEDD7248D5940007F67EB /* DateTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTag.swift; sourceTree = "<group>"; };
 		F7E7955D2488204900D3FA58 /* PGN_Writer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PGN_Writer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E795602488204900D3FA58 /* PGN_Writer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGN_Writer.h; sourceTree = "<group>"; };
 		F7E795612488204900D3FA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,6 +110,7 @@
 			children = (
 				F7E7957F24882AA800D3FA58 /* EventTag.swift */,
 				F7E795882488514700D3FA58 /* SiteTag.swift */,
+				F70AEDD7248D5940007F67EB /* DateTag.swift */,
 			);
 			path = Tag;
 			sourceTree = "<group>";
@@ -116,6 +121,7 @@
 				F7E79579248824C900D3FA58 /* Tag.swift */,
 				F7E7957B248826A800D3FA58 /* EventTag.swift */,
 				F7E79581248833E100D3FA58 /* SiteTag.swift */,
+				F70AEDD3248D54A2007F67EB /* DateTag.swift */,
 			);
 			path = Tag;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			files = (
 				F7E7957A248824C900D3FA58 /* Tag.swift in Sources */,
 				F7E79582248833E100D3FA58 /* SiteTag.swift in Sources */,
+				F70AEDD4248D54A2007F67EB /* DateTag.swift in Sources */,
 				F7E795782488207500D3FA58 /* Square.swift in Sources */,
 				F7E7957C248826A800D3FA58 /* EventTag.swift in Sources */,
 			);
@@ -243,6 +250,7 @@
 			files = (
 				F7E795892488514700D3FA58 /* SiteTag.swift in Sources */,
 				F7E7956C2488204900D3FA58 /* PGN_WriterTests.swift in Sources */,
+				F70AEDD8248D5940007F67EB /* DateTag.swift in Sources */,
 				F7E7958024882AA800D3FA58 /* EventTag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
